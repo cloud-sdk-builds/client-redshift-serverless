@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-redshift-serverless`](https://www.npmjs.com/package/@aws-sdk/client-redshift-serverless/v/3.859.0).
+[`@aws-sdk/client-redshift-serverless`](https://www.npmjs.com/package/@aws-sdk/client-redshift-serverless/v/3.862.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.859.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.862.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-/qcZztY8vQjc7py9fmczezAqBYYBzmx2ecj8WlJdDClykTZ9Oh7aSU8vFznse4PQ
+sha384-M4toWHJdcqRQlr2MveTONzVWmJim9og1/fMPL/E4SECxA2W4KyGB95JuMq6bUuXI
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-redshift-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.859.0/index.min.mjs"
+            "@aws-sdk/client-redshift-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.862.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.859.0/index.min.mjs": "sha384-/qcZztY8vQjc7py9fmczezAqBYYBzmx2ecj8WlJdDClykTZ9Oh7aSU8vFznse4PQ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.862.0/index.min.mjs": "sha384-M4toWHJdcqRQlr2MveTONzVWmJim9og1/fMPL/E4SECxA2W4KyGB95JuMq6bUuXI"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-redshift-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.859.0/index.min.mjs"
+                        "@aws-sdk/client-redshift-serverless": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.862.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.859.0/index.min.mjs": "sha384-/qcZztY8vQjc7py9fmczezAqBYYBzmx2ecj8WlJdDClykTZ9Oh7aSU8vFznse4PQ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-redshift-serverless@3.862.0/index.min.mjs": "sha384-M4toWHJdcqRQlr2MveTONzVWmJim9og1/fMPL/E4SECxA2W4KyGB95JuMq6bUuXI"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.859.0`)
+* Always pin to a specific version (`@3.862.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-redshift-serverless/blob/refs/tags/3.859.0/LICENSE
+https://github.com/cloud-sdk-builds/client-redshift-serverless/blob/refs/tags/3.862.0/LICENSE
 ```
 
 ---
